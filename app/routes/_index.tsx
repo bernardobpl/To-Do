@@ -79,11 +79,7 @@ export default function Index() {
         onChange={(e) => setNewTodoIsChecked(e.target.checked)}
         onKeyDown={(e) => e.key === "Enter" && setNewTodoIsChecked(c => !c)}
       />
-      <button 
-        onClick={handleAdd} 
-      >
-        Add
-      </button>
+      <button onClick={handleAdd}>Add</button>
 
       <ul>
         {
